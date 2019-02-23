@@ -1,0 +1,49 @@
+   body
+    {
+            //background-color: #2F3336;
+            background-image: radial-gradient(red, grey, black);
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+    }
+    #heads
+    {
+        height: 20%;
+    }
+ 
+    .triangle-left {
+            border-top: 25px solid transparent;
+            border-right: 50px solid red;
+            border-bottom: 25px solid transparent;
+    }
+    .jumpers
+    {
+    text-align: center;
+    margin-top: 30px;
+
+    }
+    .jumpers img
+    {
+	width: 90%;
+	height: auto;
+    }
+    #head
+    {
+        margin-top: 10px;
+    }
+    #title
+    {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #arrow
+    { 
+        position: none;
+        float: left;
+    }
+    table,td,tr,th{
+        table-layout: fixed;
+        width: 100%; 
+        border: 2px solid black
+    }

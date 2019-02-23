@@ -1,0 +1,191 @@
+
+    body
+    {
+            //background-color: #2F3336;
+            background-image: radial-gradient(red, grey, black);
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+    }
+    .col-xs-2
+    {
+        margin: 10px;
+    }
+    .container-fluid
+    {
+       margin-top: 20px;
+    }
+    #terminal
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        font-size: 30px;
+        margin: -100px 0 0 -220px;
+    }
+    #bottom
+    {
+       text-align: center;
+       height: 20%;
+       margin-top: -10px;
+    }
+    #top
+    {
+       height: 20%;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+ 
+    .triangle-left {
+            position: static;
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-right: 50px solid red;
+            border-bottom: 25px solid transparent;
+    }
+
+
+    #top
+    {
+       margin-top: -30px;
+       font-size: 17px;
+    }
+    #top_2
+    {
+       margin-top: -10px;
+       margin-bottom: -10px;
+       font-size: 18px;
+    }
+    #title
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    #arrow
+    { 
+        position: fixed;
+        float: left;
+    }
+    #m3,#m1,#scoret,#scorep,#p1,#p3
+    {
+        background-color: #990000;
+    }
+    #m3,#p3,#scoret,#scorep
+    {
+        width: 80px;
+        height: 70px;
+    }
+    #m1,#p1
+    {
+        //position: relative;
+        margin-top: 18px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    #m3
+    {
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+    #p3
+    {
+        margin-left: 30px;
+        margin-right: -30px;
+    }
+    #score
+    {
+        //margin-left: 30px;
+        
+    }
+    #m1
+    {
+        margin-right: 30px;
+    }
+    #p1
+    {
+        margin-left: 30px;
+    }
+    
+@media screen and (min-width: 769px){
+    #title
+    {
+        font-size: 25px;
+    }
+    #top
+    {
+        margin-top: -45px;
+        font-size: 25px;
+    }
+    #top_2
+    {
+        font-size: 20px;
+    }
+    #terminal
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        font-size: 30px;
+        margin: -100px 0 0 -250px;
+    }
+    #bottom
+    {
+        margin-top: -12px;
+    }
+     #m3,#p3,#score
+    {
+        width: 100px;
+        height: 90px;
+        font-size: 50px;
+    }
+    #m1,#p1
+    {
+        //position: relative;
+        margin-top: 23px;
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+    }
+    #m3
+    {
+        margin-left: -150px;
+        margin-right: 80px;
+    }
+    #p3
+    {
+        margin-left: 80px;
+        margin-right: -150px;
+    }
+    #score
+    {
+        //margin-left: 30px;
+        
+    }
+    #m1
+    {
+        margin-right: 80px;
+    }
+    #p1
+    {
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 1200px) {
+    .triangle-left {
+            position: static;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid red;
+            border-bottom: 50px solid transparent;
+    }
+    
+}
