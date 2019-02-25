@@ -75,9 +75,9 @@ and open the template in the editor.
                         
                         <figure>
                             
-                            <img src="1.jpg">
+                            <a href="biuro.php"><img src="1.jpg"></a>
                             
-                            <figcaption>Lista zawodników</figcaption>
+                            <figcaption>Biuro</figcaption>
                         
                         </figure>
                         

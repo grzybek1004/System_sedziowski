@@ -34,12 +34,9 @@ and open the template in the editor.
             </tr>
         
         <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "lista_zawodnikow";
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $dbname);
+            $config = require_once 'config.php';
+
+            $conn = new mysqli($config['host'], $config['user'], $config['password'], $config['dbname']);
 
             // Check connection
             if ($conn->connect_error) {
